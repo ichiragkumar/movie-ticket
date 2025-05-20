@@ -1,0 +1,34 @@
+{
+  "name": "movie-ticket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "start" :" npm run build && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ichiragkumar/movie-ticket.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ichiragkumar/movie-ticket/issues"
+  },
+  "homepage": "https://github.com/ichiragkumar/movie-ticket#readme",
+  "dependencies": {
+    "@google-cloud/tasks": "^6.1.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.20",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
